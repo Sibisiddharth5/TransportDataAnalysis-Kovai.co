@@ -23,13 +23,9 @@ Review the output tables for predicted passenger counts with upper and lower con
 Why Prophet?
 Prophet is designed to handle time series data with strong seasonal effects and works well even when data has missing points or outliers. It’s simple to use and provides reliable short-term forecasts, making it ideal for transit passenger forecasting.
 
-Example Output
-Date	Service	Predicted	Lower Bound	Upper Bound
-2024-09-30	Local Route	10605	6571	14739
-2024-10-01	Local Route	12401	8048	16211
-...	...	...	...	...
 
-Notes
+Notes:
+
 The forecast horizon is 7 days by default but can be adjusted.
 
 Confidence intervals provide a range where actual values are likely to fall.
