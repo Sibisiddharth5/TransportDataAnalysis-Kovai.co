@@ -1,28 +1,22 @@
 # TransportDataAnalysis-Kovai.co
-Overview
+
+## Overview
 This project predicts the daily number of passengers for various transit services — Local Route, Light Rail, Peak Service, Rapid Route, and School — for the upcoming week. Using historical passenger data, it helps transit planners anticipate demand and manage resources better.
 
-What’s Inside
-Data preprocessing: Cleaning and preparing the daily passenger count data for modeling.
+## What’s Inside
+- **Data preprocessing:** Cleaning and preparing the daily passenger count data for modeling.  
+- **Forecasting with Prophet:** Using Facebook’s Prophet model to predict passenger counts for the next 7 days.  
+- **Visualizations:** Graphs showing actual and predicted passenger trends.  
+- **Output:** Tables with predicted values and confidence intervals for each service.  
 
-Forecasting with Prophet: Using Facebook’s Prophet model to predict passenger counts for the next 7 days.
-
-Visualizations: Graphs showing actual and predicted passenger trends.
-
-Output: Tables with predicted values and confidence intervals for each service.
-
-How to Use
-Make sure you have Python installed (version 3.7+ recommended).
-
-Install the required packages using:
-
-bash
-Copy
-Edit
-pip install prophet matplotlib pandas
+## How to Use
+1. Make sure you have Python installed (version 3.7+ recommended).  
+2. Install the required packages using:
+   ```bash
+   pip install prophet matplotlib pandas
 Load your dataset as a pandas DataFrame.
 
-Run the forecasting script (forecast.py or similar) to generate predictions and plots.
+Run the forecasting script (e.g., forecast.py) to generate predictions and plots.
 
 Review the output tables for predicted passenger counts with upper and lower confidence bounds.
 
